@@ -1,8 +1,23 @@
 .header {
  color: black;
  font-family: Arial;
+ text-align: center;
+ font-size: 300px;
 }
 #header {
  background-color: white;
- border: 2px solid green;
+ border: 2px solid black;
+}
+.navbar {
+ border: 4px dashed green;
+ background-color: black;
+}
+.navbar_item {
+ text-decoration: none;
+ color: white;
+ font-family: sans-serif;
+}
+.navbar_item:hover {
+ color: green;
+ text-decoration: emphasized;
 }
